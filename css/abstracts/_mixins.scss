@@ -1,0 +1,47 @@
+@mixin three-horizontal-lines {
+    border-top: 7px solid #1abc9c;
+    width: 164px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 164px;
+        border-top: 2px solid #1abc9c;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: -11px;
+        left: 0;
+        width: 164px;
+        border-top: 2px solid #1abc9c;
+    }
+}
+
+@mixin three-horizontal-lines_white {
+    border-top: 7px solid white;
+    width: 164px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 164px;
+        border-top: 2px solid white;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: -11px;
+        left: 0;
+        width: 164px;
+        border-top: 2px solid white;
+    }
+}

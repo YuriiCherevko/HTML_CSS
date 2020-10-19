@@ -1,0 +1,87 @@
+.header-top {
+    background-color: $BackgroundColor;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
+.header--telephone,
+.header--mail {
+    color: $text-baseColor;
+    display: inline-block;
+}
+
+.header-call_tel,
+.header-call_mail {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 25px;
+}
+
+.login-list,
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.login-list li,
+.navigation-list li {
+    display: inline;
+    padding-left: 15px;
+    color: $text-baseColor;
+}
+
+.login-list_href {
+    color: $text-baseColor;
+}
+
+.fa-envelope,
+.fa-lock,
+.fa-search {
+    margin-right: 5px;
+}
+
+.navigation-list_href {
+    color: black;
+    font-weight: bold;
+}
+
+.header-menu {
+    padding: 25px 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+
+}
+
+.header-menu_logo {
+    font-size: 1.5rem;
+}
+
+.header-menu_logo span {
+    color: $text-secondColor;
+}
+
+.header-menu_navigation,
+.header-menu_searc {
+    align-self: center;
+}
+
+.fa-search {
+    color: black;
+}
+
+.lock {
+    display: inline-block;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.lock_text {
+    color: $text-secondColor;
+}

@@ -1,0 +1,11 @@
+.page-footer {
+    background-color: black;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    color: $text-baseColor;
+}
+
+.page-footer_text {
+    color: $text-secondColor;
+}

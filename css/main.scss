@@ -1,0 +1,22 @@
+/*variables*/
+@import "abstracts/variables";
+/*mixins*/
+@import "abstracts/mixins";
+
+
+/*main site parrametrs*/
+@import "base/typography";
+
+
+/*media*/
+@import "components/media";
+/*roundabout*/
+@import "components/carousel";
+
+
+/*header of site*/
+@import "layout/header";
+/*main of site*/
+@import "layout/section";
+/*footer*/
+@import "layout/footer";

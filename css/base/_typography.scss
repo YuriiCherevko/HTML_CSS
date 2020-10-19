@@ -1,0 +1,22 @@
+head,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#container {
+    max-width: 1920px;
+}
+
+#container {
+    font-family: 'Public Sans', sans-serif;
+}
+
+#container a {
+    text-decoration: none;
+
+    &:hover {
+        color: blue;
+    }
+}
